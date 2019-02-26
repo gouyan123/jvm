@@ -1,0 +1,52 @@
+创建 java.lang包，在里面定义 String类，代码如下：
+public class String {
+    public static void main(String[] args) {
+        new String();
+    }
+}
+运行代码，返回如下错误：
+错误: 在类 java.lang.String 中找不到 main 方法, 请将 main 方法定义为:
+   public static void main(String[] args)
+否则 JavaFX 应用程序类必须扩展javafx.application.Application
+
+解释：应用程序类加载器AppClassLoader，让父加载器 扩展类加载器ExtClassLoader去加载，扩展类加载器让父加载器 根加载器BootstrapClassLoader去加载，根加载器
+加载区域是 rt.jar，在这个包里加载到的是 javase定义的String，不是自定义的String，没有main()方法，所以报错，利用双亲委派机制，避免串改系统定义jar包里面
+的类，如果使用应用程序加载器加载，那么加载到的是 自定义的 String；
+---
+---堆内存中分为 3部分：新生代，老年代，元空间/持久代
+代码演示：com.gupao.edu.vip.course.MemoryCalc，VM options：-Xms1024m -Xmx1024m -XX:+PrintGCDetails 表示打印GC详细信息；
+---
+
+运行 com.gupao.edu.vip.course.JVMTest01，VM options：-Xms1m -Xmx8m -XX:+HeapDumpOnOutOfMemoryError 表示堆内存溢出时，将堆内存 转储(dump)
+报错如下：
+[GC (Allocation Failure) [PSYoungGen: 512K->488K(1024K)] 512K->504K(1536K), 0.0159411 secs] [Times: user=0.00 sys=0.00, real=0.02 secs]
+[GC (Allocation Failure) [PSYoungGen: 999K->504K(1024K)] 1015K->698K(1536K), 0.0008579 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 1016K->504K(1024K)] 1210K->811K(1536K), 0.0007674 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 1016K->504K(1536K)] 1323K->875K(2048K), 0.0005948 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[Full GC (Ergonomics) [PSYoungGen: 504K->472K(1536K)] [ParOldGen: 371K->237K(1536K)] 875K->709K(3072K), [Metaspace: 2951K->2951K(1056768K)], 0.0047485 secs] [Times: user=0.02 sys=0.00, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 945K->504K(1536K)] 6302K->5925K(7168K), 0.0005180 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[Full GC (Ergonomics) [PSYoungGen: 504K->493K(1536K)] [ParOldGen: 5421K->5395K(5632K)] 5925K->5888K(7168K), [Metaspace: 3451K->3451K(1056768K)], 0.0045104 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 493K->504K(2048K)] 5888K->5947K(7680K), 0.0006030 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[Full GC (Allocation Failure) [PSYoungGen: 504K->462K(2048K)] [ParOldGen: 5443K->5407K(5632K)] 5947K->5870K(7680K), [Metaspace: 3451K->3451K(1056768K)], 0.0037436 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[Full GC (Ergonomics) [PSYoungGen: 1486K->1486K(2048K)] [ParOldGen: 5407K->5407K(5632K)] 6894K->6894K(7680K), [Metaspace: 3451K->3451K(1056768K)], 0.0042089 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[Full GC (Allocation Failure) [PSYoungGen: 1486K->1486K(2048K)] [ParOldGen: 5407K->5407K(5632K)] 6894K->6894K(7680K), [Metaspace: 3451K->3451K(1056768K)], 0.0036400 secs] [Times: user=0.02 sys=0.00, real=0.00 secs]
+java.lang.OutOfMemoryError: Java heap space
+Dumping heap to java_pid3956.hprof ...
+Heap dump file created [7935342 bytes in 0.013 secs]
+count:5
+Heap
+ PSYoungGen      total 2048K, used 1533K [0x00000000ffd80000, 0x0000000100000000, 0x0000000100000000)
+  eden space 1536K, 99% used [0x00000000ffd80000,0x00000000ffeff400,0x00000000fff00000)
+  from space 512K, 0% used [0x00000000fff80000,0x00000000fff80000,0x0000000100000000)
+  to   space 512K, 0% used [0x00000000fff00000,0x00000000fff00000,0x00000000fff80000)
+ ParOldGen       total 5632K, used 5407K [0x00000000ff800000, 0x00000000ffd80000, 0x00000000ffd80000)
+  object space 5632K, 96% used [0x00000000ff800000,0x00000000ffd47dd0,0x00000000ffd80000)
+ Metaspace       used 3486K, capacity 4500K, committed 4864K, reserved 1056768K
+  class space    used 379K, capacity 388K, committed 512K, reserved 1048576K
+java.lang.OutOfMemoryError: Java heap space
+	at com.gupao.edu.vip.course.JVMTest01.<init>(JVMTest01.java:12)
+	at com.gupao.edu.vip.course.JVMTest01.main(JVMTest01.java:19)
+
+异常解析：
+[PSYoungGen: 512K->488K(1024K)]：512代表年轻代垃圾回收前 占用的空间，488代表年轻代垃圾回收后 占用的空间，1024代表给年轻代分配的内存空间；
+年轻代垃圾回收后发现 内存还是不够，因此进行 Full GC，发现还是不够，结果报异常；
