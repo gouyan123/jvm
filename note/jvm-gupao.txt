@@ -81,3 +81,8 @@ Heap
  Metaspace       used 3456K, capacity 4496K, committed 4864K, reserved 1056768K
   class space    used 375K, capacity 388K, committed 512K, reserved 1048576K
 日志分析：对象大小为6M，老年代大小为10M，因此老年代空间被用了60%，年轻代的 eden空间被使用 34%，使用因为还有别的对象；
+
+
+---逃逸分析与栈上分析：方法内的局部变量 跑到了方法外面，方法内没有跑出方法体{}的变量 在栈上分配内存；
+
+---观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类
