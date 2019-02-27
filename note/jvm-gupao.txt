@@ -50,3 +50,34 @@ java.lang.OutOfMemoryError: Java heap space
 异常解析：
 [PSYoungGen: 512K->488K(1024K)]：512代表年轻代垃圾回收前 占用的空间，488代表年轻代垃圾回收后 占用的空间，1024代表给年轻代分配的内存空间；
 年轻代垃圾回收后发现 内存还是不够，因此进行 Full GC，发现还是不够，结果报异常；
+
+---内存分配策略
+优先分配给 Eden区：见EdenAllocator类，byte[] data = new byte[20 * 1024 * 1024]; VM options：-verbose:gc -XX:+PrintGCDetails，打印日志如下：
+Heap
+ PSYoungGen      total 75776K, used 25682K [0x000000076b580000, 0x0000000770a00000, 0x00000007c0000000)
+  eden space 65024K, 39% used [0x000000076b580000,0x000000076ce94a30,0x000000076f500000)
+  from space 10752K, 0% used [0x000000076ff80000,0x000000076ff80000,0x0000000770a00000)
+  to   space 10752K, 0% used [0x000000076f500000,0x000000076f500000,0x000000076ff80000)
+ ParOldGen       total 173568K, used 0K [0x00000006c2000000, 0x00000006cc980000, 0x000000076b580000)
+  object space 173568K, 0% used [0x00000006c2000000,0x00000006c2000000,0x00000006cc980000)
+ Metaspace       used 3458K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 376K, capacity 388K, committed 512K, reserved 1048576K
+日志分析：eden总内存空间 65024K，使用 13%
+
+大对象直接分配到老年代：大对象阈值 -XX:PretenureSizeThreshold，即对象大于这个值时，被认为是大对象，见 com.gupao.edu.vip.course.chaper2.EdenAllocator
+VM options：-verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10 -XX:PretenureSizeThreshold=6M，其中-Xms堆内存最小值，-Xmx堆内存最大值，
+-Xmn年轻代内存大小；byte[] d1 = new byte[6 * 1024 * 1024];创建 d1，占6M内存，打印日志如下：
+[GC (Allocation Failure) [PSYoungGen: 512K->504K(1024K)] 512K->528K(19968K), 0.0005029 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 1015K->504K(1024K)] 1039K->710K(19968K), 0.0007066 secs] [Times: user=0.08 sys=0.02, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 1016K->504K(1024K)] 1222K->846K(19968K), 0.0006016 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+[GC (Allocation Failure) [PSYoungGen: 1016K->504K(1024K)] 1358K->886K(19968K), 0.0005151 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+Heap
+ PSYoungGen      total 9216K, used 2823K [0x00000000ff600000, 0x0000000100000000, 0x0000000100000000)
+  eden space 8192K, 34% used [0x00000000ff600000,0x00000000ff8c1f78,0x00000000ffe00000)
+  from space 1024K, 0% used [0x00000000fff00000,0x00000000fff00000,0x0000000100000000)
+  to   space 1024K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x00000000fff00000)
+ ParOldGen       total 10240K, used 6144K [0x00000000fec00000, 0x00000000ff600000, 0x00000000ff600000)
+  object space 10240K, 60% used [0x00000000fec00000,0x00000000ff200010,0x00000000ff600000)
+ Metaspace       used 3456K, capacity 4496K, committed 4864K, reserved 1056768K
+  class space    used 375K, capacity 388K, committed 512K, reserved 1048576K
+日志分析：对象大小为6M，老年代大小为10M，因此老年代空间被用了60%，年轻代的 eden空间被使用 34%，使用因为还有别的对象；
