@@ -1,0 +1,12 @@
+
+>squid:S1481"'Remove this unused "d1" local variable.(õåı«
+ksquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+Rsquid:S1854	"6Remove this useless assignment to local variable "d3".(®Ñ‰ùÿÿÿÿ
+Msquid:S1854"6Remove this useless assignment to local variable "d1".(õåı«
+Csquid:S1481	"'Remove this unused "d3" local variable.(®Ñ‰ùÿÿÿÿ
+Msquid:S1854"6Remove this useless assignment to local variable "d2".(ğæÈ“
+=squid:S1481
+"'Remove this unused "d4" local variable.(ğ½Ål
+Lsquid:S1854
+"6Remove this useless assignment to local variable "d4".(ğ½Ål
+>squid:S1481"'Remove this unused "d2" local variable.(ğæÈ“
