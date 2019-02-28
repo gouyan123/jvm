@@ -9,12 +9,12 @@ public class StringAdd {
     descriptor: ()V
     flags: ACC_PUBLIC, ACC_STATIC
     Code:
-      stack=3, locals=2, args_size=0
+      stack=2, locals=1, args_size=0  //stack表示栈中局部变量表的长度，locals表示局部变量个数，args表示方法参数
          0: ldc           #19                 // String
          2: astore_0
-         3: iconst_0
-         4: istore_1
-         5: goto          31
+         3: iconst_0  //将常量 i=0压栈
+         4: istore_1  //将常量 0存在 i里面
+         5: goto  //跳到下面 31行号处
          8: new           #21                 // class java/lang/StringBuilder  
         11: dup
         12: aload_0
@@ -27,7 +27,7 @@ public class StringAdd {
         28: iinc          1, 1
         31: iload_1
         32: bipush        10
-        34: if_icmplt     8
+        34: if_icmplt  //比较成功，跳到 8行处
         37: getstatic     #42                 // Field java/lang/System.out:Ljava/io/PrintStream;
         40: aload_0
         41: invokevirtual #48                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
