@@ -105,4 +105,4 @@ Heap
 
 ---逃逸分析与栈上分析：方法内的局部变量 跑到了方法外面，方法内没有跑出方法体{}的变量 在栈上分配内存；
 
----观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类，Test1类；
+---观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类，Test1类，SelfAdd类；

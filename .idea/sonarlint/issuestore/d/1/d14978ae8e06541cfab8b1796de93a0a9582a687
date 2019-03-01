@@ -1,12 +1,10 @@
 
->squid:S1481"'Remove this unused "d1" local variable.(õåý«
-ksquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
-Rsquid:S1854	"6Remove this useless assignment to local variable "d3".(®Ñ‰ùÿÿÿÿ
-Msquid:S1854"6Remove this useless assignment to local variable "d1".(õåý«
-Csquid:S1481	"'Remove this unused "d3" local variable.(®Ñ‰ùÿÿÿÿ
-Msquid:S1854"6Remove this useless assignment to local variable "d2".(ðæÈ“
-=squid:S1481
-"'Remove this unused "d4" local variable.(ð½Ål
-Lsquid:S1854
-"6Remove this useless assignment to local variable "d4".(ð½Ål
->squid:S1481"'Remove this unused "d2" local variable.(ðæÈ“
+Ksquid:S1854"6Remove this useless assignment to local variable "d2".(ðæÈ“
+;squid:S1481"'Remove this unused "d4" local variable.(ð½Ål
+Jsquid:S1854"6Remove this useless assignment to local variable "d4".(ð½Ål
+isquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“
+Ksquid:S1854"6Remove this useless assignment to local variable "d1".(õåý«
+<squid:S1481"'Remove this unused "d1" local variable.(õåý«
+<squid:S1481"'Remove this unused "d2" local variable.(ðæÈ“
+Asquid:S1481"'Remove this unused "d3" local variable.(®Ñ‰ùÿÿÿÿ
+Psquid:S1854"6Remove this useless assignment to local variable "d3".(®Ñ‰ùÿÿÿÿ

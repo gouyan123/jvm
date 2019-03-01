@@ -15,3 +15,7 @@ w
 Gsrc/main/java/com/gupao/edu/vip/course/chaper2/BigObjectIntoOldGen.java,f\5\f510c2f538239013951af22d72de7579ca2d99fa
 r
 Bsrc/main/java/com/gupao/edu/vip/course/chaper2/SpaceGuarantee.java,d\1\d14978ae8e06541cfab8b1796de93a0a9582a687
+i
+9src/main/java/com/gupao/edu/vip/course/chaper2/Test1.java,6\2\62a6733d367c7e19e0553485f6d8ba2da30e6844
+k
+;src/main/java/com/gupao/edu/vip/course/chaper2/SelfAdd.java,3\2\3200b1fa2be2c97f1c1702f4c5eb5fbf048430ab
