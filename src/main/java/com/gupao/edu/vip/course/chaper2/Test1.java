@@ -28,7 +28,7 @@ public class Test1 {
         11: iload_3		#变量3 即c 压栈
         12: invokevirtual #22 // Method java/io/PrintStream.println:(I)V 实例方法
         15: return
-      LineNumberTable:  //行号表
+      LineNumberTable:  //行号表：行号 对应 槽位
         line 5: 0
         line 6: 2
         line 7: 4
