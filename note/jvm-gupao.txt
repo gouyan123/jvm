@@ -163,3 +163,12 @@ protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundE
 ``````沙箱机制
 跟 CustomURLClassLoader#sandBoxCheck()
 ``````End
+
+``````实例：com.gupao.edu.vip.course.gctuning.BlockingQueueTest类中，模拟500个用户发送消息，模拟5个用户取消息，
+将BlockingQueueTest部署到 Linux环境中，以 jar包形式启动；
+# jps -l：查看所有java进程，返回 进程id 和 进程对应的 主类名；
+# jstat -gcutil 进程id 1000：每秒中返回 该java进程的 gc统计信息；
+可以分析 gc日志，也可以用 # jvisualvm ，开启jvisualvm进行观察，并连接远程某个java进程 ；
+Full gc回收整个堆 = 年轻代 + 老年代 + 元空间；Allocation Failure：堆内存分配失败，需要垃圾回收；
+由 gc统计信息可知，YGC（年轻代gc）和FGC（整个堆gc）次数太多，可以将老年代 内存空间调大
+`````End
