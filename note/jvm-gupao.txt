@@ -100,15 +100,13 @@ Heap
  Metaspace       used 3459K, capacity 4496K, committed 4864K, reserved 1056768K
   class space    used 376K, capacity 388K, committed 512K, reserved 1048576K
 
-日志分析：其中 d1，d2，d3分别需要 2M内存空间，且存在 Eden中，d4需要4M内存空间，此时 d1 + d2 + d3 + d4需要的内存空间已超过 Eden的内存空间，Eden内存
+日志分析：Allocation Failure 堆中内存分配失败；
+其中 d1，d2，d3分别需要 2M内存空间，且存在 Eden中，d4需要4M内存空间，此时 d1 + d2 + d3 + d4需要的内存空间已超过 Eden的内存空间，Eden内存
 空间为 8M(8:1:1)，因此需要在 年轻代进行一次 MinGC，将 d1，d2，d3移动到from区，from区内存空间仅1M，因此移动到 老年代，然后将 d4保存到 Eden区；
 
 ---逃逸分析与栈上分析：方法内的局部变量 跑到了方法外面，方法内没有跑出方法体{}的变量 在栈上分配内存；
 
-
----观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类，Test1类；
-
----生成 dump文件，查看内存泄露：见 com.gupao.edu.vip.course.chaper4.Demo06
-
 ---观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类，Test1类，SelfAdd类；
 
+---生成 dump文件，查看内存泄露：见 com.gupao.edu.vip.course.chaper4.Demo06，配置参数：
+-verbose:gc -XX:+PrintGCDetails -Xms10M -Xmx10M -Xmn5M -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D:/ideaproject/jvm/Demo06.dump
