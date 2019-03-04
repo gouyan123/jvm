@@ -11,7 +11,7 @@ public class TryFinally {
     Code:
       stack=1, locals=3, args_size=0
          0: ldc #34  // String Hello  //去常量池 加载 常量 "Hello"
-         2: astore_0  //存到 0号变量 str
+         2: astore_0  //存到 0号变量 str，a表示引用类型
          3: aload_0  //把 0号变量 str 入栈
          4: astore_2  //存到 2号变量 str
          5: ldc #36  // String gupao  //去常量池 加载 常量 "gupao"
