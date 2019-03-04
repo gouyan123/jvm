@@ -2,8 +2,6 @@ package com.gupao.edu.vip.course.chaper4;
 
 
 public class Demo01 {
-
-
     public static void main(String[] args) {
         int hour = 24;
         long mi = hour * 60 * 60 * 1000;
@@ -14,6 +12,5 @@ public class Demo01 {
 //       User u  = new User();
 //       Object obj = u;
         System.out.println(mic/mi);
-
     }
 }

@@ -2,7 +2,6 @@ package com.gupao.edu.vip.course.chaper5;
 
 public class Demo02 {
 
-
     public  static int i = 1;
 
     static {

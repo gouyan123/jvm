@@ -106,3 +106,56 @@ Heap
 ---逃逸分析与栈上分析：方法内的局部变量 跑到了方法外面，方法内没有跑出方法体{}的变量 在栈上分配内存；
 
 ---观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类，Test1类，SelfAdd类；
+
+com.gupao.edu.vip.course.chaper5.Demo06类代码分析：
+反编译 Demo06.class：javap -verbose Demo06，结果见 Demo06.java
+
+``````Start
+见 com.gupao.edu.vip.course.chaper5.Demo05，掌握 同步指令在 字节码 层面是怎么做的：
+
+``````End
+
+``````证明双亲委派机制的原理
+跟 ClassLoader#loadClass
+protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException{
+    synchronized (getClassLoadingLock(name)) {
+        // First, check if the class has already been loaded
+        Class<?> c = findLoadedClass(name);
+        if (c == null) {
+            long t0 = System.nanoTime();
+            try {
+                if (parent != null) {
+                    // 让 父类加载器去加载
+                    c = parent.loadClass(name, false);
+                } else {
+                    c = findBootstrapClassOrNull(name);
+                }
+            } catch (ClassNotFoundException e) {
+                // ClassNotFoundException thrown if class not found
+                // from the non-null parent class loader
+            }
+            // c == null，说明 父类加载器没有加载到该类，会让 子类加载器加载
+            if (c == null) {
+                // If still not found, then invoke findClass in order
+                // to find the class.
+                long t1 = System.nanoTime();
+                c = findClass(name);
+
+                // this is the defining class loader; record the stats
+                sun.misc.PerfCounter.getParentDelegationTime().addTime(t1 - t0);
+                sun.misc.PerfCounter.getFindClassTime().addElapsedTimeFrom(t1);
+                sun.misc.PerfCounter.getFindClasses().increment();
+            }
+        }
+        if (resolve) {
+            resolveClass(c);
+        }
+        return c;
+    }
+}
+``````End
+
+``````沙箱机制
+跟 CustomURLClassLoader#sandBoxCheck()
+``````End
+
