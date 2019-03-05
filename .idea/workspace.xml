@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="801f3cb0-4f86-48ec-bf78-7271a392fd02" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/深入理解JVM &amp; G1 GC 代码.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/note/深入理解JVM ＆ G1 GC代码.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note/jvm-gupao.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note/jvm-gupao.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JvmApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/JvmApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/TryFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/TryFinally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gouyan.jvm.JvmApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gouyan.jvm.JvmApplicationTests.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="801f3cb0-4f86-48ec-bf78-7271a392fd02" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +24,11 @@
       </file>
       <file leaf-file-name="深入理解JVM &amp; G1 GC 代码.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/note/深入理解JVM &amp; G1 GC 代码.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1551">
+              <caret line="2006" lean-forward="true" selection-start-line="2006" selection-end-line="2006" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Demo01.java" pinned="false" current-in-tab="false">
@@ -131,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo02.java" />
         <option value="$PROJECT_DIR$/note/jvm-gupao.txt" />
+        <option value="$PROJECT_DIR$/note/深入理解JVM &amp; G1 GC 代码.txt" />
       </list>
     </option>
   </component>
@@ -405,16 +389,15 @@
       <workItem from="1551230434969" duration="7521000" />
       <workItem from="1551317498370" duration="3578000" />
       <workItem from="1551424084386" duration="1976000" />
-      <workItem from="1551661493593" duration="11372000" />
+      <workItem from="1551661493593" duration="12041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46115000" />
+    <option name="totallyTimeSpent" value="46784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -437,8 +420,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7548006" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6720827" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6720827" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20576407" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="8" weight="0.3293944" />
@@ -771,7 +754,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/note/深入理解JVM &amp; G1 GC 代码.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="2006" lean-forward="true" selection-start-line="2006" selection-end-line="2006" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
