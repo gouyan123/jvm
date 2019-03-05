@@ -22,11 +22,12 @@ public class BlockingQueueTest {
 
         // 借助Executors
         ExecutorService service = Executors.newCachedThreadPool();
+        /**模拟500个用户发送消息*/
         for (int i = 0; i < 500; i++) {
             Producer producer = new Producer(queue);
             service.execute(producer);
         }
-
+        /**模拟5  个用户取消息*/
         for(int i = 0; i < 100; i++){
             Consumer consumer = new Consumer(queue);
             service.execute(consumer);

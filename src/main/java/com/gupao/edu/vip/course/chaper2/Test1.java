@@ -25,10 +25,10 @@ public class Test1 {
          6: iadd        # 栈顶两个元素相加，计算结果压栈
          7: istore_3  # 计算结果出栈保存到局部变量3里面
          8: getstatic     #16 // Field java/lang/System.out:Ljava/io/PrintStream; 类方法
-        11: iload_3		#变量3 即c 压栈
-        12: invokevirtual #22 // Method java/io/PrintStream.println:(I)V 实例方法
+        11: iload_3		#加载变量3 即c 入栈
+        12: invokevirtual #22 // Method java/io/PrintStream.println:(I)V 调用实例方法
         15: return
-      LineNumberTable:  //行号表：行号 对应 槽位
+      LineNumberTable:  //行号表：代码行号 对应 本地变量表；
         line 5: 0
         line 6: 2
         line 7: 4
