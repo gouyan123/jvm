@@ -12,6 +12,7 @@ public class Demo04 {
 
     public static void main(String[] args) throws ScriptException {
         ScriptEngineManager manager = new ScriptEngineManager();
+        /**调用 javascript*/
         ScriptEngine javaScript = manager.getEngineByName("JavaScript");
         Object eval = javaScript.eval("function add(a,b) {return a + b;} add(2,3);");
         System.out.println(eval);

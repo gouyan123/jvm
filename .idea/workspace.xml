@@ -4,45 +4,54 @@
     <list default="true" id="801f3cb0-4f86-48ec-bf78-7271a392fd02" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note/jvm-gupao.txt" beforeDir="false" afterPath="$PROJECT_DIR$/note/jvm-gupao.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/BigObjectIntoOldGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/BigObjectIntoOldGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/EdenAllocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/EdenAllocator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/LongTermObjectIntoOldGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/LongTermObjectIntoOldGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/RuntimeConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/RuntimeConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/SelfAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/SelfAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/SpaceGuarantee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/SpaceGuarantee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/StackAllocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/StackAllocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/StringAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/StringAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper2/TryFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/TryFinally.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper3/JStackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter3/JStackDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/Demo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/Demo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/Demo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/api/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/api/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/client/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/client/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/deadlock/TestDeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/deadlock/TestDeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/filter/NettyClientFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/filter/NettyClientFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/filter/NettyServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/filter/NettyServerFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/handler/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/handler/NettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/handler/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/handler/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/server/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/server/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper4/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter4/service/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/CustomURLClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/CustomURLClassLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper6/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper6/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper6/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper6/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper6/GCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/GCDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/BigObjectIntoOldGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/EdenAllocator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/LongTermObjectIntoOldGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/RuntimeConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/SelfAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/SpaceGuarantee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/StackAllocation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/StringAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper2/TryFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper3/JStackDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/Demo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/Demo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/Demo05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/Demo06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/api/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/client/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/deadlock/TestDeadLock$MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/deadlock/TestDeadLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/filter/NettyClientFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/filter/NettyServerFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/handler/NettyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/handler/NettyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/server/NettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper4/service/ServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/CustomURLClassLoader$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/CustomURLClassLoader$CustomSecurityManager$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/CustomURLClassLoader$CustomSecurityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/CustomURLClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo02$Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo03$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo03$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo03$Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo04$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper5/Demo06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/gctuning/BlockingQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/gctuning/BlockingQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/gctuning/consumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/gctuning/consumer/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/gctuning/producer/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/gctuning/producer/Producer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,68 +64,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jvm-gupao.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jvm-gupao.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/note/jvm-gupao.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="175" column="3" selection-start-line="175" selection-start-column="3" selection-end-line="175" selection-end-column="3" />
+            <state relative-caret-position="453">
+              <caret line="194" column="54" selection-start-line="194" selection-start-column="54" selection-end-line="194" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GCDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/GCDemo.java">
+      <file leaf-file-name="Demo03.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo03.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockingQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/gctuning/BlockingQueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#558#566#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="深入理解JVM &amp; G1 GC 代码.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note/深入理解JVM &amp; G1 GC 代码.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1551">
-              <caret line="2006" selection-start-line="2006" selection-end-line="2006" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="693">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Demo02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter5/Demo02.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="-231">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://F:/ProgramFiles/Java/jdk1.8.0_181/src.zip!/java/lang/ClassLoader.java">
+      <file leaf-file-name="Demo04.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="436" column="5" selection-start-line="400" selection-start-column="4" selection-end-line="436" selection-end-column="5" />
+            <state relative-caret-position="198">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -178,8 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chaper5/Demo02.java" />
         <option value="$PROJECT_DIR$/note/深入理解JVM &amp; G1 GC 代码.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/gctuning/BlockingQueueTest.java" />
-        <option value="$PROJECT_DIR$/note/jvm-gupao.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/GCDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo04.java" />
+        <option value="$PROJECT_DIR$/note/jvm-gupao.txt" />
       </list>
     </option>
   </component>
@@ -216,7 +197,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -280,6 +261,74 @@
               <item name="course" type="462c0819:PsiDirectoryNode" />
               <item name="chapter6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gupao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gupao" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gupao" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gupao" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gupao" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="vip" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="chaper6" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -328,19 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo02">
-    <configuration name="BigObjectIntoOldGen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.edu.vip.course.chapter2.BigObjectIntoOldGen" />
-      <module name="jvm" />
-      <option name="VM_PARAMETERS" value="-verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:PretenureSizeThreshold=6M" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gupao.edu.vip.course.chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo03">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gupao.edu.vip.course.chapter5.Demo01" />
       <module name="jvm" />
@@ -359,6 +396,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gupao.edu.vip.course.chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.edu.vip.course.chapter6.Demo03" />
+      <module name="jvm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gupao.edu.vip.course.chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -435,19 +483,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.JvmApplication" />
-      <item itemvalue="Application.BigObjectIntoOldGen" />
       <item itemvalue="Application.SpaceGuarantee" />
       <item itemvalue="Application.Demo06" />
       <item itemvalue="Application.Demo01" />
       <item itemvalue="Application.Demo02" />
+      <item itemvalue="Application.Demo03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo03" />
         <item itemvalue="Application.Demo02" />
         <item itemvalue="Application.Demo01" />
         <item itemvalue="Application.Demo06" />
         <item itemvalue="Application.SpaceGuarantee" />
-        <item itemvalue="Application.BigObjectIntoOldGen" />
       </list>
     </recent_temporary>
   </component>
@@ -471,15 +519,15 @@
       <workItem from="1551230434969" duration="7521000" />
       <workItem from="1551317498370" duration="3578000" />
       <workItem from="1551424084386" duration="1976000" />
-      <workItem from="1551661493593" duration="16505000" />
+      <workItem from="1551661493593" duration="21937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51248000" />
+    <option name="totallyTimeSpent" value="56680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -530,30 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1031" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/SqlSessionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.3.RELEASE/spring-boot-autoconfigure-2.0.3.RELEASE.jar!/org/springframework/boot/autoconfigure/mongo/MongoProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -675,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1452">
           <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/Test1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -834,10 +851,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/note/jvm-gupao.txt">
+    <entry file="file://$PROJECT_DIR$/target/classes/com/gupao/edu/vip/course/chaper6/GCDemo.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="175" column="3" selection-start-line="175" selection-start-column="3" selection-end-line="175" selection-end-column="3" />
+        <state>
+          <folding>
+            <element signature="e#0#339#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter2/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -845,6 +871,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gupao/edu/vip/course/chapter6/Demo04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/jvm-gupao.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="194" column="54" selection-start-line="194" selection-start-column="54" selection-end-line="194" selection-end-column="54" />
         </state>
       </provider>
     </entry>

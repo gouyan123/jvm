@@ -1,7 +1,7 @@
 package com.gupao.edu.vip.course.chapter6;
 
 /**
- * 动态分派
+ * 动态链接
  */
 public class Demo03 {
 
@@ -12,7 +12,6 @@ public class Demo03 {
     }
 
     static class Sub1 extends Super {
-
         @Override
         public void test() {
             System.out.println("Sub1");
@@ -20,8 +19,6 @@ public class Demo03 {
     }
 
     static class Sub2 extends Super {
-
-
         @Override
         public void test() {
             System.out.println("Sub2");
@@ -34,5 +31,4 @@ public class Demo03 {
         c1.test();
         c2.test();
     }
-
 }
