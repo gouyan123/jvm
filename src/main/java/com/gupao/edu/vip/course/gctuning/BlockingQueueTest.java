@@ -18,8 +18,6 @@ public class BlockingQueueTest {
         // 声明一个缓存队列
         BlockingQueue<String> queue = new LinkedBlockingQueue<String>(100);
 
-
-
         // 借助Executors
         ExecutorService service = Executors.newCachedThreadPool();
         /**模拟500个用户发送消息*/
@@ -32,9 +30,6 @@ public class BlockingQueueTest {
             Consumer consumer = new Consumer(queue);
             service.execute(consumer);
         }
-
-
-
 
         // 执行10s
 //        producer1.stop();

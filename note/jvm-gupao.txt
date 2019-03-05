@@ -168,7 +168,11 @@ protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundE
 将BlockingQueueTest部署到 Linux环境中，以 jar包形式启动；
 # jps -l：查看所有java进程，返回 进程id 和 进程对应的 主类名；
 # jstat -gcutil 进程id 1000：每秒中返回 该java进程的 gc统计信息；
-可以分析 gc日志，也可以用 # jvisualvm ，开启jvisualvm进行观察，并连接远程某个java进程 ；
+分析方式：①打印gc日志；②# jvisualvm 开启jvisualvm进行观察，并连接远程某个java进程；③当内存溢出时，将日志dump到 xxx.dump文件中，使用Memory Analyze
+分析 内存泄露问题，看哪个类创建的对象最多，通过对象引用关系，找到使用该类的位置；
 Full gc回收整个堆 = 年轻代 + 老年代 + 元空间；Allocation Failure：堆内存分配失败，需要垃圾回收；
-由 gc统计信息可知，YGC（年轻代gc）和FGC（整个堆gc）次数太多，可以将老年代 内存空间调大
+由 gc统计信息可知，YGC（年轻代gc）和FGC（整个堆gc）次数太多，可以将老年代 内存空间调大，调大分配的内存，比较low，可以通过dump文件分析，找到创建实例对象占用
+空间最大的类，还有引用该类的类，去修改代码，BlockingQueueTest类中最初定义的是 无限队列，会存很多对象，占内存空间，可以改成有限队列，当满了以后，生产者
+等待；
 `````End
+
