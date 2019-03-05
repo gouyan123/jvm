@@ -64,7 +64,7 @@ Heap
   class space    used 376K, capacity 388K, committed 512K, reserved 1048576K
 日志分析：eden总内存空间 65024K，使用 13%
 
-大对象直接分配到老年代：大对象阈值 -XX:PretenureSizeThreshold，即对象大于这个值时，被认为是大对象，见 com.gupao.edu.vip.course.chaper2.EdenAllocator
+大对象直接分配到老年代：大对象阈值 -XX:PretenureSizeThreshold，即对象大于这个值时，被认为是大对象，见 com.gupao.edu.vip.course.chapter2.EdenAllocator
 VM options：-verbose:gc -XX:+PrintGCDetails -Xms20M -Xmx20M -Xmn10M -XX:PretenureSizeThreshold=6M，其中-Xms堆内存最小值，-Xmx堆内存最大值，
 -Xmn年轻代内存大小；byte[] d1 = new byte[6 * 1024 * 1024];创建 d1，占6M内存，打印日志如下：
 [GC (Allocation Failure) [PSYoungGen: 512K->504K(1024K)] 512K->528K(19968K), 0.0005029 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
@@ -109,14 +109,14 @@ Heap
 ---观察 A.class文件结构：javap -verbose A.class，见 StringAdd类，TryFinally类，Test1类，SelfAdd类；
 
 
----生成 dump文件，查看内存泄露：见 com.gupao.edu.vip.course.chaper4.Demo06，配置参数：
+---生成 dump文件，查看内存泄露：见 com.gupao.edu.vip.course.chapter4.Demo06，配置参数：
 -verbose:gc -XX:+PrintGCDetails -Xms10M -Xmx10M -Xmn5M -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D:/ideaproject/jvm/Demo06.dump
 
-com.gupao.edu.vip.course.chaper5.Demo06类代码分析：
+com.gupao.edu.vip.course.chapter5.Demo06类代码分析：
 反编译 Demo06.class：javap -verbose Demo06，结果见 Demo06.java
 
 ``````Start
-见 com.gupao.edu.vip.course.chaper5.Demo05，掌握 同步指令在 字节码 层面是怎么做的：
+见 com.gupao.edu.vip.course.chapter5.Demo05，掌握 同步指令在 字节码 层面是怎么做的：
 
 ``````End
 
