@@ -1,0 +1,11 @@
+
+^squid:S2094"BRemove this empty class, write its code or make it an "interface".(ñ¥Â—ýÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç¯éŸûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ç¯éŸûÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯™É£ûÿÿÿÿ
+Gsquid:S1172"+Remove this unused method parameter "sub1".(ô·§èûÿÿÿÿ
+Bsquid:S1172"+Remove this unused method parameter "sub2".(ùÇì­
+Isquid:S1172"-Remove this unused method parameter "parent".(Œç»Õùÿÿÿÿ

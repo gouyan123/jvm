@@ -1,0 +1,20 @@
+
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(È•Ãú
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(áî­±
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òü´Òşÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(áî­±
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òü´Òşÿÿÿÿ
+Asquid:S1481"'Remove this unused "dt" local variable.(Âê’Éşÿÿÿÿ
+Asquid:S1481"'Remove this unused "dt" local variable.(Âê’Éşÿÿÿÿ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(¢ à
+[squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+=squid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®
+=squid:S1604"(Make this anonymous inner class a lambda(ÉãÃ®
+Psquid:S1854"6Remove this useless assignment to local variable "dt".(Âê’Éşÿÿÿÿ
+Psquid:S1854"6Remove this useless assignment to local variable "dt".(Âê’Éşÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

@@ -1,0 +1,5 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Áß‡Ü8«õŞ”-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(¥²ßÎ8«õŞ”-
+Nsquid:S1172"+Remove this unused method parameter "args".(×­Éêşÿÿÿÿ8«õŞ”-

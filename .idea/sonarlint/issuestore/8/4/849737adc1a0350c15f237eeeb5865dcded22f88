@@ -1,0 +1,6 @@
+
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ç¼±Áüÿÿÿÿ8 ÁìÚ”-
+isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Ÿ•¿8 ÁìÚ”-
+®%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78 ÁìÚ”-
+isquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(öù¾Ú8 ÁìÚ”-
+isquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(Ôò˜œ8 ÁìÚ”-

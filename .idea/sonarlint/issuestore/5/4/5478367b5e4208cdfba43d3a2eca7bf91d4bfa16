@@ -1,0 +1,7 @@
+
+Zsquid:S1854"9Remove this useless assignment to local variable "users".(³¹Ú‡úÿÿÿÿ8ˆŸù³”-
+Ksquid:S1481"*Remove this unused "users" local variable.(³¹Ú‡úÿÿÿÿ8ˆŸù³”-
+Jsquid:S1481")Remove this unused "name" local variable.(æ¡°Œøÿÿÿÿ8ŒóÍ³”-
+Esquid:S1481")Remove this unused "ints" local variable.(åŒûŸ8ˆŸù³”-
+Ysquid:S1854"8Remove this useless assignment to local variable "name".(æ¡°Œøÿÿÿÿ8ŒóÍ³”-
+Tsquid:S1854"8Remove this useless assignment to local variable "ints".(åŒûŸ8ˆŸù³”-

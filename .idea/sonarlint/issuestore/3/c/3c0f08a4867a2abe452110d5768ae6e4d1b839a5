@@ -1,0 +1,7 @@
+
+§%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú7
+Rsquid:S2696$"6Make the enclosing method "static" or remove this set.(Ø“©üÿÿÿÿ
+Rsquid:S2696#"6Make the enclosing method "static" or remove this set.(€õÑˆÿÿÿÿÿ
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(îçš
+?squid:S11481"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

@@ -1,0 +1,10 @@
+
+“%squid:RedundantThrowsDeclarationCheck"fRemove the declaration of thrown exception 'java.lang.SecurityException' which is a runtime exception.(øŒ.
+hsquid:S3008"SRename this field "INSTANCE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÃĞÊ
+asquid:S1871"LThis branch's code block is the same as the block for the branch on line 66.(İÇ¡É
+fsquid:S1871"LThis branch's code block is the same as the block for the branch on line 66.(‰Ã ıÿÿÿÿ
+fsquid:S1871"LThis branch's code block is the same as the block for the branch on line 66.(ˆù¼¿ıÿÿÿÿ
+Csquid:S1444".Make this "public static INSTANCE" field final(¯ÃĞÊ
+€"squid:ClassVariableVisibilityCheck"TMake INSTANCE a static final constant or non-public and provide accessors if needed.(¯ÃĞÊ
+=squid:S1604"(Make this anonymous inner class a lambda(Ùš±¬
+Bsquid:S1185"(Remove this method to simply inherit it.(ÿ£Áçüÿÿÿÿ

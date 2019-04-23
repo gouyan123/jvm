@@ -1,24 +1,7 @@
-代码清单1-1 演示代码
-public class JVMDemoTest {
-	/**
-	 * 获取当前jvm的内存信息
-	 * @return
-	 */
-    public static String toMemoryInfo() {
-
-       Runtime runtime = Runtime.getRuntime ();
-       int freeMemory = ( int ) (runtime.freeMemory() / 1024 / 1024);
-       int totalMemory = ( int ) (runtime.totalMemory() / 1024 / 1024);
-       return freeMemory + "M/" + totalMemory + "M(free/total)" ;
-    }
-    /**
-	 *
-	 * @param args
-	 */
-    public static void main(String[] args) {
-       System.out.println( "memory info :" + toMemoryInfo ());
-    }
-}
+``````idea中配置 JVM参数
+代码见 com.zhou.jvm.JVMDemoTest；VM options：-Xms16m -Xmx16m；每个main方法对应一个java进程，有自己独立的一个内存空间，需要配置JVM参数，最大堆内存与
+最小堆内存最好想等，当堆内存超过最小堆内存时，JVM会释放堆内存达到最小堆内存，当需要时再申请内存，但不能超过最大堆内存，反复释放申请浪费资源；
+``````End
 代码清单1-2 清单1-1运行输出（设置参数）
 memory info :60M/61M(free/total)
 代码清单1-3 清单1-1运行输出（未设置参数）
@@ -28,32 +11,10 @@ memory info :56M/57M(free/total)
 添加:JAVA_OPTS='-Xms512m -Xmx1024m'
 或者 JAVA_OPTS="-server -Xms800m -Xmx800m   
 -XX:MaxNewSize=256m" 或者 CATALINA_OPTS="-server -Xms256m -Xmx300m" 
-代码清单1-5 内存泄漏演示代码
-import Java.util.HashMap;
-import Java.util.Map;
 
-public class MemoryLeakDemo {
-	static class Key {
-	      Integer id;
-
-	      Key(Integer id) {
-	         this.id = id;
-	      }
-
-	      @Override
-	      public int hashCode() {
-	         return id.hashCode();
-	      }
-	   }
-
-	   public static void main(String[] args) {
-	      Map m = new HashMap();
-	      while (true)
-	         for (int i = 0; i < 10000; i++)
-	            if (!m.containsKey(new Key(i)))
-	               m.put(new Key(i), "Number:" + i);
-	   }
-}
+``````代码清单 com.zhou.jvm.MemoryLeakDemo 内存泄漏演示代码
+内存泄露即内存一直被占用，不被释放，最终会抛出OutOfMemeoryError异常；
+``````End
 代码清单1-6 内存泄漏演示代码运行输出
 Exception in thread "main" Java.lang.OutOfMemoryError: GC overhead limit exceeded
 	at Java.util.HashMap.newNode(Unknown Source)
@@ -333,7 +294,7 @@ clean map
 12.986: [Full GC 12.986: [Tenured: 349567K->27685K(349568K), 0.1033825 secs] 506815K->27685K(506816K), [Perm : 379K->379K(12288K)], 0.1034725 secs] [Times: user=0.11 sys=0.00, real=0.11 secs]
 13.154: [GC 13.154: [DefNew: 139776K->17472K(157248K), 0.0961716 secs] 167461K->116529K(506816K), 0.0962454 secs]
 代码清单1-18 System.gc示例
-class TestGC
+public class TestGC
 {
     public static void main(String[] args)
     {

@@ -1,0 +1,6 @@
+
+=squid:S1481"&Remove this unused "a" local variable.(€τα
+Ssquid:S1854"7Remove this useless assignment to local variable "buf".(ωτ¤µϊÿÿÿÿ
+Isquid:S1199"-Extract this nested code block into a method.(ÒΜβ–ψÿÿÿÿ
+Dsquid:S1481"(Remove this unused "buf" local variable.(ωτ¤µϊÿÿÿÿ
+ksquid:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Μ°¬“
